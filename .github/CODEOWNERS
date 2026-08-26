@@ -1,0 +1,6 @@
+# Require lead review for executable config files
+eslint.config.*   @your-org/leads
+postcss.config.*  @your-org/leads
+tailwind.config.* @your-org/leads
+.github/workflows/** @your-org/leads
+scripts/check-malware-configs.mjs @your-org/leads
